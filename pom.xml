@@ -3,7 +3,7 @@
 	
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.javahome</groupId>
-  <artifactId>car-rental</artifactId>
+  <artifactId>car-rentals</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>car-rentals Maven Webapp</name>
@@ -18,6 +18,10 @@
   </dependencies>
   <build>
     <finalName>car-rentals</finalName>
+	  <configuration>
+            <source>1.6</source>
+            <target>1.6</target>
+        </configuration>
   </build>
   <distributionManagement>
 		 <snapshotRepository>
